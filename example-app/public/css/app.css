@@ -94,3 +94,103 @@
     z-index: -1;
     transform: translate(-50%, -50%);
 }
+
+
+.team-section {
+    padding: 40px 0;
+    text-align: center;
+}
+.carousel-item img {
+    border-radius: 10px;
+    max-height: 400px;
+    object-fit: cover;
+}
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+.call-to-action {
+    background: linear-gradient(45deg, #16213e, #1a1a2e);
+    border-radius: 15px;
+    padding: 40px;
+    margin-top: 40px;
+    text-align: left;
+}
+.call-to-action img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.btn-custom {
+    background-color: #4ecca3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.btn-custom:hover {
+    background-color: #45b7d1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.custom-section {
+    background-color: #5f3dc4; /* Màu nền */
+    border-radius: 20px;
+    padding: 40px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+.custom-btn {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.custom-btn:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+.floating-img {
+    max-width: 100%;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45%;
+    transform: translate(20%, -20%);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
