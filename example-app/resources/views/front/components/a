@@ -232,6 +232,51 @@
         </div>
     </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="container text-center mt-5">
+        <h2 class="fw-bold">New & Blog</h2>
+        <p class="text-muted">Explore Our Latest News & Blog</p>
+    
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="blog-card p-3">
+                    <img src="https://source.unsplash.com/300x200/?team,office" alt="Blog 1" class="blog-img">
+                    <p class="blog-date">November 25, 2025</p>
+                    <p class="blog-title">Revealing Images With Animations Gradients, Blend Modes Cool</p>
+                    <a href="#" class="blog-readmore">Read more →</a>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class="blog-card p-3">
+                    <img src="https://source.unsplash.com/300x200/?coding,laptop" alt="Blog 2" class="blog-img">
+                    <p class="blog-date">November 25, 2025</p>
+                    <p class="blog-title">List Of 5 Ways Generating Real-Time Audio Sentiment Analysis With</p>
+                    <a href="#" class="blog-readmore">Read more →</a>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class="blog-card p-3">
+                    <img src="https://source.unsplash.com/300x200/?whiteboard,planning" alt="Blog 3" class="blog-img">
+                    <p class="blog-date">November 25, 2025</p>
+                    <p class="blog-title">September Of Never Ending Adventures (2025 Wallpapers Edition)</p>
+                    <a href="#" class="blog-readmore">Read more →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
 </body>

@@ -223,13 +223,15 @@
             </div>
         </div>
     </section>
-    <section class="team-section">
+
+    {{-- Team --}}
+    <section class="team-section1">
         <div class="container">
-            <div class="text-center">    
-            <h2 class="fw-bold" style="color: white">Team Member</h2>
-            <p style="color: rgba(255, 255, 255, 0.479)">Meet Our Professional Team Member</p>
-            </div>
-            <div class="">
+            <div class="backgroud-team">
+                <div class="text-center">
+                    <h2 class="fw-bold" style="color: white">Team Member</h2>
+                    <p style="color: rgba(255, 255, 255, 0.479)">Meet Our Professional Team Member</p>
+                </div>
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide ">
@@ -266,27 +268,262 @@
                             <img class="d-block rounded shadow-sm" src="img/team.png" alt="">
                             <span class="fw-bold" style="color: white">No name</span>
                             <p style="color: white">CEO & Founder</p>
-                        </div>                     
+                        </div>
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
-                <div>
-                    <div class="custom-section row mb-3">
-                        <div class="col-md-6 col-lg-6 col-sm-12">
+            </div>
+            <div class="team-section2 mt-5">
+                <div class="">
+                    <div class="row align-items-center custom-section">
+                        <div class="col-md-8">
                             <div class="d-flex align-items-center mb-3">
-                                <img src="img/image1.png" alt="" class="me-3">
-                                <h4 class="fw=bold mb-0">Ready to Boost Business & product Sales ?</h4>
+                                <img src="img/image1.png" alt="Profile" class="profile-img me-3">
+                                <h4 class="fw-bold mb-0">Ready to Boost Business & product Sales ?</h4>
                             </div>
                             <p class="text-white-50">
-                                Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium totam.
+                                Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque
+                                laudantium
+                                totam.
                             </p>
-                            <button class="custom-btn">Get Started Now</button>
+                            <button class="custom-btn">Get Started Now <i class="bi bi-arrow-right"></i></button>
                         </div>
-                        <div class="col-md-6">
-                            <div class="mb-3">
-                                <img src="img/ready.png" alt="" class="floating-img">
-                            </div>                       
+                        <div class="col-md-4">
+                            <img src="img/ready.png" alt="Chart Image" class="floating-img">
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="team-section2">
+        <div class="container">
+
+        </div>
+    </section>
+    <section class="Business mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="img/Vaitkevich.png" alt="">
+                    <img src="img/Petrovic.png" alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <h2>Innovative Business <br> Increase and Branding <br> Solutions</h2>
+                    <p></p>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                        dicta.</p>
+                    <hr class="shadow-lg">
+                    <div class="row">
+                        <h1 class="col-4">
+                            <spahn>85%</spahn>
+                        </h1>
+                        <h1 class="col-4">
+                            <spahn>85%</spahn>
+                        </h1>
+                        <h1 class="col-4">
+                            <spahn>85%</spahn>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    {{-- working --}}
+    <section class="working">
+        <div class="container ">
+            <div class="text-center">
+                <h2>Working</h2>
+                <p>We Complete Our Work to Follow Some Easy Ways</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-12">
+                    <div class="row mb-3">
+                        <div class="col-12 bg-light p-3 rounded-5">
+                            <div class="row">
+                                <div class="col-10">
+                                    <div class="d-flex">
+                                        <div class="number-icon m-1">
+                                            <span>01</span>
+                                        </div>
+                                        <div class="text-center ">
+                                            <p class="mt-3 ml-2">Market research</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+                                        molestiae
+                                    </div>
+                                </div>
+                                <div class="col-2 text-center align-items-center d-flex">
+                                    <i class="bi bi-bookmark-check fs-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-12 bg-light p-3 rounded-5">
+                            <div class="row">
+                                <div class="col-10">
+                                    <div class="d-flex">
+                                        <div class="number-icon m-1">
+                                            <span>01</span>
+                                        </div>
+                                        <div class="text-center ">
+                                            <p class="mt-3 ml-2">Market research</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+                                        molestiae
+                                    </div>
+                                </div>
+                                <div class="col-2 text-center align-items-center d-flex">
+                                    <i class="bi bi-bookmark-check fs-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-12 bg-light p-3 rounded-5">
+                            <div class="row">
+                                <div class="col-10">
+                                    <div class="d-flex">
+                                        <div class="number-icon m-1">
+                                            <span>01</span>
+                                        </div>
+                                        <div class="text-center ">
+                                            <p class="mt-3 ml-2">Market research</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+                                        molestiae
+                                    </div>
+                                </div>
+                                <div class="col-2 text-center align-items-center d-flex">
+                                    <i class="bi bi-bookmark-check fs-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-12 bg-light p-3 rounded-5">
+                            <div class="row">
+                                <div class="col-10">
+                                    <div class="d-flex">
+                                        <div class="number-icon m-1">
+                                            <span>01</span>
+                                        </div>
+                                        <div class="text-center ">
+                                            <p class="mt-3 ml-2">Market research</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+                                        molestiae
+                                    </div>
+                                </div>
+                                <div class="col-2 text-center align-items-center d-flex">
+                                    <i class="bi bi-bookmark-check fs-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-12">
+                    <img src="img/Frame59.png" alt="" class="img-working">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- Testimonial --}}
+    <section class="Testimonial mb-5">
+        <div class="container">
+            <div class="text-center mt-5 p-2">
+                <h2 class="mt-3 mb-3" style="color: #fff">Testimonial</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="justify-content-center">
+                        <div class="d-flex justify-content-center">
+                            <div class="bg-white user-cmt p-2 rounded-3 shadow-sm">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <i class="bi bi-person-circle fs-1"></i>
+                                    </div>
+                                    <div class="col-9 d-flex align-items-center">
+                                        <p class="mt-3"> aasasaasaasaasassasaasds</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <div class="comment pt-3">
+                                <div class="swiper mySwiper2">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">“we denounce with right indignation and dislike men
+                                            who are so beguile and demoralized by the charms of pleasure of the moment,
+                                            so blinded by desire, that they cannot foresee “</div>
+                                        <div class="swiper-slide">“we denounce with right indignation and dislike men
+                                            who are so beguile and demoralized by the charms of pleasure of the moment,
+                                            so blinded by desire, that they cannot foresee “</div>
+                                        <div class="swiper-slide">“we denounce with right indignation and dislike men
+                                            who are so beguile and demoralized by the charms of pleasure of the moment,
+                                            so blinded by desire, that they cannot foresee “</div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div></div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="d-flex justify-content-center">
+                        <img src="img/testi.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- blogs --}}
+    <section class="blogs">
+        <div class="container text-center mt-5">
+            <h2>New & Blogs</h2>
+            <p class="">Explore Our Latest News & Blogs</p>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="blog-card p-3  ">
+                        <img src="img/Djordje.png" alt="">
+                        <p class="blog-date">November 25, 2025</p>
+                        <p class="blog-title">Revealing Images With Animations Gradients, Blend Modes Cool</p>
+                        <a href="#" class="blog-readmore">Read more →</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-card p-3 ">
+                        <img src="img/Djordje.png" alt="">
+                        <p class="blog-date">November 25, 2025</p>
+                        <p class="blog-title">Revealing Images With Animations Gradients, Blend Modes Cool</p>
+                        <a href="#" class="blog-readmore">Read more →</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-card p-3 ">
+                        <img src="img/Djordje.png" alt="">
+                        <p class="blog-date">November 25, 2025</p>
+                        <p class="blog-title">Revealing Images With Animations Gradients, Blend Modes Cool</p>
+                        <a href="#" class="blog-readmore">Read more →</a>
                     </div>
                 </div>
             </div>
@@ -294,7 +531,49 @@
     </section>
 
 
-    
+    {{-- footer --}}\
+    <section class="footer p-3">
+        <div class="container text-center mt-5">
+            <div class="row mt-4">
+                
+                <div class="col-md-3">
+                    <div class="text-start">
+                        <img src="img/logo2.png" alt="">
+                        <div>
+                            <p class="mt-2">Sed perspiciatis unde omnis natus doloremque laudantium totae</p>
+                        </div>
+                      
+                        <div class="d-flex">
+                            <div class="me-4"><i class="bi bi-facebook fs-2"></i></div>
+                            <div class="me-4"><i class="bi bi-facebook fs-2"></i></div>
+                            <div class="me-4"><i class="bi bi-facebook fs-2"></i></div>
+                            <div class="me-4"><i class="bi bi-facebook fs-2"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    Logo
+                </div>
+                <div class="col-md-3">
+                    Logo
+                </div>
+                <div class="col-md-3">
+                    Logo
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    english
+                </div>
+                <div class="col-md-6">
+                    &copy; 2025 All Rights Reserved Designed By....
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -305,6 +584,24 @@
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
+            },
+        });
+    </script>
+    <script>
+        var swiper = new Swiper(".mySwiper2", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
             },
         });
     </script>
