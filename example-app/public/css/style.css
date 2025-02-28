@@ -163,6 +163,7 @@
         bottom: -20%;
         right: 30%;
     }
+ 
 }
 
 @media (max-width: 768px) {
@@ -173,6 +174,8 @@
         bottom: 0%;
         right: 30%;
     }
+
+   
 }
 
 .team-section1 {
@@ -204,16 +207,10 @@
     height: 100%;
 }
 
-.swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 .swiper-pagination {
     position: unset !important;
     text-align: center;
+    margin-bottom: 5%;
     transition: 0.3s opacity;
     transform: translate3d(0, 0, 0);
     z-index: 10;
@@ -241,13 +238,9 @@
 .custom-btn:hover {
     background-color: rgba(255, 255, 255, 0.4);
 }
-.profile-img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid white;
-}
+
+
+
 /* .floating-img {
     max-width: 25%;
     border-radius: 15px;
@@ -266,17 +259,18 @@
     top: 0;
     right: 0;
     width: 45%;
-    transform: translate(-20%, -20%);
+    transform: translate(-20%, -30%);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
+.img-teams{
+    width: 100%;
+}
 .working {
     margin-top: 100px;
 }
 
-.img-working {
-    width: 90%;
-}
+
 
 .Testimonial{
     background-image: url(../img/working.png);
@@ -307,10 +301,15 @@
     display: block;
     width: 100%;
     height: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
     object-fit: cover;
   }
 
 
+.img-working{
+    width: 100%;
+}
 
 
 
@@ -332,3 +331,67 @@
     background-color: #101828;
     color: #fff;
 }
+
+iframe{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #8760fd;
+}
+
+.img-blog{
+    width: 100%;
+}
+
+.text-white i{
+    color: black;
+    width: 100%;
+}
+
+.blog-card {
+    position: relative;
+    overflow: hidden;
+   
+}
+
+.blog-img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.blog-card:hover .blog-img {
+    transform: scale(1.1); /* Phóng to nhẹ hình khi hover */
+}
+
+.text-white i{
+    color: #fff;
+}
+.hover-icon {
+    opacity: 0;
+    color: white;
+    transition: opacity 0.3sease-in-out;
+    top: 50%;
+    left: 5%;
+  
+    align-content: center;
+}
+
+
+
+.hover-icon i{
+    width: auto;
+}
+.blog-card:hover .hover-icon {
+    opacity: 1; /* Hiện icon khi hover */
+}
+
+.Testimonial-img{
+    width: 100%;
+}
+
+
+.logo2{
+    width: 50%;
+
+}
+
+
+
