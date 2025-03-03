@@ -171,3 +171,26 @@
     transform: translate(20%, -20%);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
+
+
+.small-img {
+    width: 100%;
+    height: 48%; /* Chia đôi chiều cao để không bị chồng lên nhau */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 5px; /* Khoảng cách giữa 2 ảnh nhỏ */
+}
+
+.large-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Responsive: Khi màn hình nhỏ hơn 768px (Tablet & Mobile) */
+@media (max-width: 768px) {
+    .small-img {
+        height: 45%; /* Giảm chiều cao để không bị đè */
+    }
+}
