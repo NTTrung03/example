@@ -403,6 +403,11 @@ iframe{
 }
 
 
+
+.card-img:hover{
+    translate: scale(1.5);
+}
+
 .blog-card:hover .hover-icon {
     opacity: 1; /* Hiện icon khi hover */
 }
@@ -424,6 +429,62 @@ iframe{
 
 
 
-.img_daden{
-    border-radius: ;
+.bg-3d{
+    background-image: url(../img/bg3duser.png);
+}
+
+.card-portfolio{
+    border: 0;
+}
+
+
+.card-portfolio {
+    overflow: hidden;
+    border-radius: 12px;
+    position: relative;
+}
+
+.card-portfolio .card-img {
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.card-portfolio .card-img img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-portfolio:hover .card-img img {
+    transform: scale(1.1);
+}
+
+
+.card-portfolio-meta {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+
+.card-portfolio:hover .card-portfolio-meta {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.stretched-link{
+    text-decoration: none;
+    color: #000;
+}
+.stretched-link:hover {
+    color: #8760fd;
+}
+
+
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: "";
 }

@@ -13,21 +13,23 @@
 
 <body>
 
-@include('front.components.header');
-@include('front.components.Hero_Section');    
-@include('front.components.about')
-@include('front.components.team') 
-@include('front.components.business')
-@include('front.components.working') 
-@include('front.components.testimonial')
-@include('front.components.blogs')
-@include('front.components.footer')
+    @include('Home.components.header');
 
-    
+    @include('Home.components.Hero_Section');
 
-  
+    @include('Home.components.about');
 
-    
+    @include('Home.components.team');
+
+    @include('Home.components.business');
+
+    @include('Home.components.working');
+
+    @include('Home.components.testimonial');
+
+    @include('Home.components.blogs');
+
+    @include('Home.components.footer');
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

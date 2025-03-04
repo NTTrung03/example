@@ -17,13 +17,15 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/', function () {
-    return view('front.index');
+    return view('Home.index');
 });
 
 
 
 
-
+Route::get('/portfolio', function (){
+    return view('portfolio.index');
+});
 
 
 
