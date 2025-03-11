@@ -25,32 +25,32 @@
                 adipisicing elit. Maxime sapiente sint distinctio maiores. Voluptas laborum neque minima esse ipsum,
                 officiis praesentium eveniet consequuntur architecto illo quo enim odit iusto nisi! Lorem</p>
             <hr class="shadow-lg ">
-            <div class="row text-center align-items-center">
-                <h1 class="col-3 d-none d-md-block">
-                    <div class="d-flex ">
+            <div class="row d-flex justify-items-center text-center align-items-center">
+                <h1 class="col-3 col-sm-12 d-none d-md-block">
+                    <div class=" ">
 
                         <div class="">
                             <span> <i class="bi bi-pie-chart"></i> 85%</span>
                         </div>
                     </div>
                 </h1>
-                <h1 class="col-3 ">
-                    <div class="d-flex ">
+                <h1 class="col-3 col-sm-12">
+                    <div class="">
                         <div class="">
                             <span><i class="bi bi-pie-chart"></i> 85%</span>
                         </div>
                     </div>
                 </h1>
-                <h1 class="col-3">
-                    <div class="d-flex ">
+                <h1 class="col-3  col-sm-12">
+                    <div class=" ">
 
                         <div class="">
                             <span><i class="bi bi-pie-chart"></i> 85%</span>
                         </div>
                     </div>
                 </h1>
-                <h1 class="col-3">
-                    <div class="d-flex ">
+                <h1 class="col-3  col-sm-12">
+                    <div class=" ">
                         <div class="">
                             <span><i class="bi bi-pie-chart"></i> 85%</span>
                         </div>

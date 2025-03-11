@@ -9,10 +9,9 @@
             <div class="swiper mySwiper ">
                 <div class="swiper-wrapper ">
                     @for ($i = 0; $i < 7; $i++)
-                        <div class="swiper-slide bg-light rounded-3">
+                        {{-- <div class="swiper-slide bg-light rounded-3">
                             <div class="blog-card position-relative overflow-hidden">
-                                <img class=" rounded-top-3" src="img/daden.png" alt=""
-                                    style="width: 100%">
+                                <img class=" rounded-top-3" src="img/daden.png" alt="">
 
                                 <h4 class="px-1">Test {{ $i }}</h4>
                                 <p class=" text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, illo
@@ -38,6 +37,30 @@
                             </div>
 
 
+                        </div> --}}
+                        <div class="swiper-slide bg-light rounded-3">
+                            <div class="blog-card position-relative overflow-hidden">
+                                <img src="img/100.png" alt="" class="w-100">
+                                <h4 class="px-1">Test {{ $i }}</h4>
+                                <p class=" text-center dec_team">Lorem ipsum dolor, sit amet consectetur sit amet consectetur v </p>
+                                <div class="row position-absolute hover-icon">
+                                    <div class="col-12">
+                                        <a href="#" class="text-white">
+                                            <i class="bi bi-phone fs-2"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="text-white">
+                                            <i class="bi bi-phone fs-2"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="text-white">
+                                            <i class="bi bi-phone fs-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>     
                         </div>
                     @endfor
                 </div>

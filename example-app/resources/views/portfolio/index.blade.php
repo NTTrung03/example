@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    @include('portfolio.components.header');
-
+    {{-- @include('portfolio.components.header'); --}}
+    @include('home.components.header');
     <section class="page_title container d-md-flex align-items-center justify-content-between pb-3">
         <h1 class="text-nowrap mb-md-4 pe-md-5">Portfolio</h1>
         <nav class="overflow-auto">
@@ -54,7 +54,7 @@
                     </div>
                     <div class="my-2">
                         <h2 class="h4">
-                            <a href="" class="stretched-link">Astronaut & Flashing Neon Lights</a>
+                            <a href="/Details_p1" class="stretched-link">Astronaut & Flashing Neon Lights</a>
                         </h2>
                         <div class="card-portfolio-meta pb-1">
                             <span class=" text-muted">Lorem, ipsum dolor sit</span>
@@ -172,7 +172,7 @@
             </ul>
         </nav>
     </section>
-
+   
     {{--  --}}
 
     <section class="container mb-1 mb-md-3">
@@ -200,7 +200,7 @@
     </section>
 
 
-    @include('portfolio.components.footer');
+    @include('Home.components.footer');
 
 
 

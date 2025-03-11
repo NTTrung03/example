@@ -5,7 +5,7 @@
             {{-- căn chỉnh nội dung  --}}
             <div class="container">
                 {{-- logo --}}
-                <a class="navbar-brand d-flex align-items-center" href="#">
+                <a class="navbar-brand d-flex align-items-center" href="/">
                     <img src="img/logo.svg" alt="Logo" class="navbar-brand">
                 </a>
                 {{-- nút responsive mobile --}}
@@ -17,10 +17,10 @@
                     {{-- điều hướng chiều cao, căn giữa chiều ngang --}}
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link" href="/portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
@@ -28,15 +28,15 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="nav-link" href="#">Infomation</a></li>
-                                <li><a class="nav-link" href="#">Team</a></li>
+                                <li><a class="nav-link" href="/team">Team</a></li>
                                 <li><a class="nav-link" href="#">Mission</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-disabled="true">Blogs</a>
+                            <a class="nav-link" aria-disabled="true" href="/blog">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-disabled="true">Contract</a>
+                            <a class="nav-link" aria-disabled="true" href="/contact">Contract</a>
                         </li>
                     </ul>
                     {{-- phần liên hệ --}}
