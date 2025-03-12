@@ -36,7 +36,7 @@
                             <a class="nav-link" aria-disabled="true" href="/blog">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-disabled="true" href="/contact">Contract</a>
+                            <a class="nav-link" aria-disabled="true" href="/contact">Contact</a>
                         </li>
                     </ul>
                     {{-- phần liên hệ --}}

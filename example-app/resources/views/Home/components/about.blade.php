@@ -15,34 +15,34 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
-                <h2 class="fw-bold ">About Company</h2>
-                <h4>Grow Your Business With Our Next Agency</h4>
-                <p class="text-muted">Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque
+                <h2 class="fw-bold about-title">About Company</h2>
+                <h4 class="about-suptitle">Grow Your Business With Our Next Agency</h4>
+                <p class="text-muted about-description">Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque
                     laudantium, totam rem
                     aperiam eaque ipsa quae.</p>
                 <div class="row">
                     <div class="col-md-6">
                         <div class="info-box p-3 mb-3 rounded shadow-sm">
                             <h3 class="fw-bold">88%</h3>
-                            <p class="mb-0">Traffic Genarated</p>
+                            <p class="mb-0 about-content">Traffic Genarated lor</p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="info-box p-3 mb-3  rounded shadow-sm">
                             <h3 class="fw-bold">88%</h3>
-                            <p class="mb-0">Traffic Genarated</p>
+                            <p class="mb-0 about-content">Traffic Genarated</p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="info-box p-3 mb-3  rounded shadow-sm">
                             <h3 class="fw-bold">88%</h3>
-                            <p class="mb-0">Traffic Genarated</p>
+                            <p class="mb-0 about-content">Traffic Genarated</p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="info-box p-3 mb-3  rounded shadow-sm">
                             <h3 class="fw-bold">88%</h3>
-                            <p class="mb-0">Traffic Genarated</p>
+                            <p class="mb-0 about-content">Traffic Genarated</p>
                         </div>
                     </div>
                 </div>

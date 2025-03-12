@@ -15,50 +15,68 @@
     @include('home.components.header')
 
     <section class="container pb-4 mb-lg-3 mt-2">
-        <h1>Single Project 3D Rendering of Human Sculpture</h1>
-        <p>Scene of sunglasses & Headphone on human head</p>
+        <h1 class="detail-title">Single Project 3D Rendering of Human Sculpture</h1>
+        <p class="detail-title">Scene of sunglasses & Headphone on human head</p>
     </section>
     {{--  --}}
     <section class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 mb-5 ">
+            <div class="col-4 mb-5 ">
                 <div class="text-center ">
                     <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-6 ">
-                            <img src="/img/avatar.png" alt="" class="mb-2 avtar_aut" style="width: 40%">
+                        <div class="col-12 ">
+                            <img src="/img/avatar.png" alt="" class="mb-2 avtar_aut" style="width: 30%">
                         </div>
-                        <div class="col-lg-12 col-md-12 col-sm-6 ">
+                        <div class="col-12 ">
 
-                            <p>Athor: Ralph Edwards </p>
-                            <p>Athor: Ralph Edwards </p>
-                            <p>Athor: Ralph Edwards </p>
-                            <p>Athor: Ralph Edwards </p>
-                            <p>Athor: Ralph Edwards </p>
+                            <p class="athor-line1">Athor: Ralph Edwards </p>
+                            <p class="athor-line1">Athor: Ralph Edwards </p>
+                            <p class="athor-line1">Athor: Ralph Edwards </p>
+                            <p class="athor-line1">Athor: Ralph Edwards </p>
+                            <p class="athor-line1">Athor: Ralph Edwards </p>
                             <div class="line-highlight mb-3"></div>
                             <div class="d-flex justify-content-center icon_share">
-                                <a href="https://www.facebook.com/sharer/sharer.php?u={{ urlencode(url()->current()) }}"
-                                    class="me-4" target="_blank">
-                                    <i class="bi bi-facebook fs-4"></i>
-                                </a>
-                                <a href="https://twitter.com/intent/tweet?url={{ urlencode(url()->current()) }}"
-                                    class="me-4" target="_blank">
-                                    <i class="bi bi-twitter fs-4"></i>
-                                </a>
-                                <a href="https://www.tiktok.com/sharing/share-offsite/?url={{ urlencode(url()->current()) }}"
-                                    class="me-4" target="_blank">
-                                    <i class="bi bi-tiktok fs-4"></i>
-                                </a>
-                                <a href="https://api.whatsapp.com/send?text={{ urlencode(url()->current()) }}"
-                                    class="me-4" target="_blank">
-                                    <i class="bi bi-whatsapp fs-4"></i>
-                                </a>
+                                <div class="row">
+
+                                    <div class="col-3">
+
+                                        <a href="https://www.facebook.com/sharer/sharer.php?u={{ urlencode(url()->current()) }}"
+                                            class="me-4" target="_blank">
+                                            <i class="bi bi-facebook fs-4"></i>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-3">
+                                        <a href="https://twitter.com/intent/tweet?url={{ urlencode(url()->current()) }}"
+                                            class="me-4" target="_blank">
+                                            <i class="bi bi-twitter fs-4"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-3">
+                                        <a href="https://www.tiktok.com/sharing/share-offsite/?url={{ urlencode(url()->current()) }}"
+                                            class="me-4" target="_blank">
+                                            <i class="bi bi-tiktok fs-4"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-3">
+                                        <a href="https://api.whatsapp.com/send?text={{ urlencode(url()->current()) }}"
+                                            class="me-4" target="_blank">
+                                            <i class="bi bi-whatsapp fs-4"></i>
+                                        </a>
+                                    </div>
+
+
+                                    
+                                    
+                                    
+                                </div>
                             </div>
                         </div>
                     </div>
 
                 </div>
             </div>
-            <div class="col-lg-8 col-md-8 col-sm-12">
+            <div class="col-8">
                 <div class="">
                     {{-- img, vid --}}
                     <div class="row">
@@ -89,7 +107,7 @@
         <div class="row mt-2">
             <div class="col-4 d-none d-md-block">
                 <div class="text-center mt-2">
-                    <h2>Explore More</h2>
+                    <h2 class="more-title">Explore More</h2>
                     <div class="row">
                         <div class="col-md-12 col-lg-12 col-sm-12">
                             <div class="card-portfolio" style="width: 70%">
@@ -98,8 +116,11 @@
                                         class="justify-content-center align-items-center rounded-3 shadow-sm">
                                 </div>
                                 <h2 class="h6 text-start">
-                                    <a href="" class="stretched-link ">Astronaut & Flashing Neon Lights</a>
-                                    <p class="text-ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ut, fugit aut provident corrupti eaque commodi obcaecati nihil, ipsam quo perferendis dolore maxime modi doloribus quidem laborum eos dicta cumque?</p>
+                                    <a href="" class="stretched-link text-ellipsis">Astronaut & Flashing Neon Lights</a>
+                                    <p class="text-ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Excepturi ut, fugit aut provident corrupti eaque commodi obcaecati nihil, ipsam
+                                        quo perferendis dolore maxime modi doloribus quidem laborum eos dicta cumque?
+                                    </p>
                                 </h2>
                             </div>
 
@@ -111,8 +132,11 @@
                                         class="justify-content-center align-items-center rounded-3 shadow-sm">
                                 </div>
                                 <h2 class="h6">
-                                    <a href="" class="stretched-link">Astronaut & Flashing Neon Lights</a>
-                                    <p class="text-ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ut, fugit aut provident corrupti eaque commodi obcaecati nihil, ipsam quo perferendis dolore maxime modi doloribus quidem laborum eos dicta cumque?</p>
+                                    <a href="" class="stretched-link text-ellipsis">Astronaut & Flashing Neon Lights</a>
+                                    <p class="text-ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Excepturi ut, fugit aut provident corrupti eaque commodi obcaecati nihil, ipsam
+                                        quo perferendis dolore maxime modi doloribus quidem laborum eos dicta cumque?
+                                    </p>
                                 </h2>
                             </div>
                         </div>
@@ -123,8 +147,12 @@
                                         class="justify-content-center align-items-center rounded-3 shadow-sm">
                                 </div>
                                 <h2 class="h6">
-                                    <a href="" class="stretched-link text-start">Astronaut & Flashing Neon Lights</a>
-                                    <p class="text-ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ut, fugit aut provident corrupti eaque commodi obcaecati nihil, ipsam quo perferendis dolore maxime modi doloribus quidem laborum eos dicta cumque?</p>
+                                    <a href="" class="stretched-link text-ellipsis text-start">Astronaut & Flashing Neon
+                                        Lights</a>
+                                    <p class="text-ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Excepturi ut, fugit aut provident corrupti eaque commodi obcaecati nihil, ipsam
+                                        quo perferendis dolore maxime modi doloribus quidem laborum eos dicta cumque?
+                                    </p>
                                 </h2>
                             </div>
                         </div>
@@ -136,8 +164,8 @@
                 <div class="row mt-3 mb-3">
                     <div class="col-lg-7 mb-4 mb-lg-0 col-md-7 col-sm-12 ">
                         <div class="pe-lg-4 me-lg-3 pe-xl-0 me-xl-0">
-                            <h2 class="h1 mb-4">About</h2>
-                            <p class="fs-lg mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi esse
+                            <h2 class="h1 mb-4 detail-about">About</h2>
+                            <p class="fs-lg mb-0 about-sup">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi esse
                                 nesciunt possimus dolorem sequi culpa odit, numquam excepturi consequatur aperiam
                                 ipsa repudiandae corrupti aliquam fugit impedit illum deleniti voluptatem. Quaerat.
                             </p>
@@ -145,14 +173,14 @@
                     </div>
                     <div class="col-lg-5 mt-3 mb-3 detail_about">
                         <div class="ps-lg-4 ms-lg-3">
-                            <h5 class="h5 d-flex align-items-center"><i class="bi bi-question-circle-fill"
+                            <h5 class="h5 d-flex align-items-center about-challenge"><i class="bi bi-question-circle-fill"
                                     style=" color: #8760fd;"></i>&nbsp;Challenge</h5>
-                            <p class="pb-4 mb-0 mb-lg-3">Ultricies massa iaculis vestibulum egestas vestibulum,
+                            <p class="pb-4 mb-0 mb-lg-3 challenge-sup">Ultricies massa iaculis vestibulum egestas vestibulum,
                                 cursus. Leo non arcu ultricies senectus a purus sed.</p>
-                            <h5 class="h5 d-flex align-items-center"><i class="bi bi-lightbulb"
+                            <h5 class="h5 d-flex align-items-center about-challenge"><i class="bi bi-lightbulb"
                                     style=" color: #8760fd;"></i>&nbsp;Solution</h5>
 
-                            <p class="mb-0">Sit tellus id proin viverra iaculis pellentesque ornare. Diam augue
+                            <p class="mb-0 challenge-sup">Sit tellus id proin viverra iaculis pellentesque ornare. Diam augue
                                 sit feugiat porttitor leo, fusce vel ac. Placerat vulputate quisque.</p>
 
                         </div>
@@ -204,12 +232,12 @@
     <section class="container mt-5 mb-5">
         <div class="row">
             <div class="col-md-3 col-lg-3 col-sm-12 ">
-                <h2>Results</h2>
+                <h2 class="about-results">Results</h2>
             </div>
             <div class="col-md-9 col-lg-9 col-sm-12 results">
                 <div class="row">
                     <div class="col-md-12 col-lg-12 col-sm-12 ">
-                        <p class="fs-lg pb-4 mb-2 mb-lg-3">Vitae eget in vulputate quam. Turpis habitasse
+                        <p class="fs-lg pb-4 mb-2 mb-lg-3 h6 results-">Vitae eget in vulputate quam. Turpis habitasse
                             egestas vitae, sed tortor, nunc. Enim, magna duis lectus mauris magna orci,
                             nunc. Tincidunt ultrices mauris, sed quisque. Vulputate volutpat egestas
                             facilisi morbi proin sagittis. Ipsum eleifend commodo eu, at et adipiscing.
@@ -237,14 +265,29 @@
         </div>
     </section>
     {{--  --}}
-    <section class="container">
+    <section class="container d-md-none d-block">
+
         <div class="text-center mt-2">
             <h2>Explore More</h2>
             <div class="row">
-                <div class="col-4">
+                <div class=" col-4">
                     <div class="card-portfolio">
                         <div class="card-img2">
-                            <img src="/img/001.png" alt="" class="w-100 rounded-3 shadow-sm">
+                            <img src="/img/001.png" alt="" class="w-100"
+                                class="justify-content-center align-items-center rounded-3 shadow-sm">
+                        </div>
+                        <h2 class="h6">
+                            <a href="" class="stretched-link">Astronaut & Flashing Neon Lights</a>
+                            <p>Lorem ipsum dolor sit</p>
+                        </h2>
+                    </div>
+
+                </div>
+                <div class="col-4 ">
+                    <div class="card-portfolio">
+                        <div class="card-img2">
+                            <img src="/img/001.png" alt="" class="w-100"
+                                class="justify-content-center align-items-center rounded-3 shadow-sm">
                         </div>
                         <h2 class="h6">
                             <a href="" class="stretched-link">Astronaut & Flashing Neon Lights</a>
@@ -252,21 +295,11 @@
                         </h2>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 ">
                     <div class="card-portfolio">
                         <div class="card-img2">
-                            <img src="/img/001.png" alt="" class="w-100 rounded-3 shadow-sm">
-                        </div>
-                        <h2 class="h6">
-                            <a href="" class="stretched-link">Astronaut & Flashing Neon Lights</a>
-                            <p>Lorem ipsum dolor sit</p>
-                        </h2>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card-portfolio">
-                        <div class="card-img2">
-                            <img src="/img/001.png" alt="" class="w-100 rounded-3 shadow-sm">
+                            <img src="/img/001.png" alt="" class="w-100"
+                                class="justify-content-center align-items-center rounded-3 shadow-sm">
                         </div>
                         <h2 class="h6">
                             <a href="" class="stretched-link">Astronaut & Flashing Neon Lights</a>
@@ -276,8 +309,9 @@
                 </div>
             </div>
         </div>
-    </section>
-    
+
+</section>
+
     <section class="mb-3">
         <div class="container contact-section mt-3">
             <h2>Want to work with us? Let's talk</h2>

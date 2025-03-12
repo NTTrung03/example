@@ -3,46 +3,19 @@
     <div class="container">
         <div class="backgroud-team">
             <div class="text-center">
-                <h2 class="fw-bold" style="color: white">Team Member</h2>
-                <p style="color: rgba(255, 255, 255, 0.479)">Meet Our Professional Team Member</p>
+                <h2 class="fw-bold team-title" style="color: white">Team Member</h2>
+                <p style="color: rgba(255, 255, 255, 0.479)" class="team-suptitle mb-5">Meet Our Professional Team Member</p>
             </div>
             <div class="swiper mySwiper ">
                 <div class="swiper-wrapper ">
                     @for ($i = 0; $i < 7; $i++)
-                        {{-- <div class="swiper-slide bg-light rounded-3">
-                            <div class="blog-card position-relative overflow-hidden">
-                                <img class=" rounded-top-3" src="img/daden.png" alt="">
-
-                                <h4 class="px-1">Test {{ $i }}</h4>
-                                <p class=" text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, illo
-                                    exercitationem! Eius, minima quasi fugiat cupiditate ipsum similique amet ipsa
-                                    provident!</p>
-                                <div class="row position-absolute hover-icon">
-                                    <div class="col-12">
-                                        <a href="#" class="text-white">
-                                            <i class="bi bi-phone fs-2"></i>
-                                        </a>
-                                    </div>
-                                    <div class="col-12">
-                                        <a href="#" class="text-white">
-                                            <i class="bi bi-phone fs-2"></i>
-                                        </a>
-                                    </div>
-                                    <div class="col-12">
-                                        <a href="#" class="text-white">
-                                            <i class="bi bi-phone fs-2"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                        </div> --}}
                         <div class="swiper-slide bg-light rounded-3">
                             <div class="blog-card position-relative overflow-hidden">
-                                <img src="img/100.png" alt="" class="w-100">
-                                <h4 class="px-1">Test {{ $i }}</h4>
-                                <p class=" text-center dec_team">Lorem ipsum dolor, sit amet consectetur sit amet consectetur v </p>
+                                <img src="img/100.png" alt="" class="w-100 rounded-top-3">
+                                <div class="p-3">
+                                    <h4 class="">Test {{ $i }}</h4>
+                                    <p class=" text-center dec_team px-1">Lorem ipsum dolor, sit amet consectetur sit amet consectetur v </p>
+                                </div>
                                 <div class="row position-absolute hover-icon">
                                     <div class="col-12">
                                         <a href="#" class="text-white">

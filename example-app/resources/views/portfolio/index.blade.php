@@ -42,7 +42,7 @@
                             <a href="" class="stretched-link">Astronaut & Flashing Neon Lights</a>
                         </h2>
                         <div class="card-portfolio-meta pb-1">
-                            <span class=" text-muted">Lorem, ipsum dolor sit</span>
+                            <span class="text-muted porfolio-sup">Lorem, ipsum dolor sit</span>
                         </div>
                     </div>
                 </div>

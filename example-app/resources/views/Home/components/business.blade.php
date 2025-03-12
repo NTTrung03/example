@@ -16,32 +16,31 @@
         </div>
 
         <div class="col-lg-7 col-md-7 col-sm-12">
-            <h1>Business</h1>
-            <h3>Innovative Business Increase and Branding Solutions</h3>
-            <p></p>
-            <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus debitis
+            <h1 class="business-title">Business</h1>
+            <h3 class="business-suptitle">Innovative Business Increase and Branding Solutions</h3>
+        
+            <p class="text-muted business-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus debitis
                 dolorem laudantium placeat officia fugiat ad ducimus dolorum quos minima nulla ipsa animi sint,
                 totam possimus illo eum earum aliquam. Lorem lora Lorem ipsum dolor sit amet consectetur,
                 adipisicing elit. Maxime sapiente sint distinctio maiores. Voluptas laborum neque minima esse ipsum,
                 officiis praesentium eveniet consequuntur architecto illo quo enim odit iusto nisi! Lorem</p>
             <hr class="shadow-lg ">
             <div class="row d-flex justify-items-center text-center align-items-center">
-                <h1 class="col-3 col-sm-12 d-none d-md-block">
+                <h1 class="col-lg-3 d-none d-md-block">
                     <div class=" ">
-
                         <div class="">
                             <span> <i class="bi bi-pie-chart"></i> 85%</span>
                         </div>
                     </div>
                 </h1>
-                <h1 class="col-3 col-sm-12">
+                <h1 class="col-lg-3 col-sm-12">
                     <div class="">
                         <div class="">
                             <span><i class="bi bi-pie-chart"></i> 85%</span>
                         </div>
                     </div>
                 </h1>
-                <h1 class="col-3  col-sm-12">
+                <h1 class="col-lg-3  col-sm-12">
                     <div class=" ">
 
                         <div class="">
@@ -49,7 +48,7 @@
                         </div>
                     </div>
                 </h1>
-                <h1 class="col-3  col-sm-12">
+                <h1 class="col-lg-3  col-sm-12">
                     <div class=" ">
                         <div class="">
                             <span><i class="bi bi-pie-chart"></i> 85%</span>

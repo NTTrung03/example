@@ -1,9 +1,9 @@
    {{-- working --}}
    <section class="working container">
     <div class=" ">
-        <div class="text-center">
-            <h2>Working</h2>
-            <p class="text-muted">We Complete Our Work to Follow Some Easy Ways</p>
+        <div class="text-center mb-5">
+            <h2 class="working-title">Working</h2>
+            <p class="text-muted working-suptitle ">We Complete Our Work to Follow Some Easy Ways</p>
         </div>
         <div class="row align-items-center">
             <div class="col-md-6 col-lg-6 col-sm-12">
@@ -16,12 +16,14 @@
                                         <span>01</span>
                                     </div>
                                     <div class="text-center ">
-                                        <p class="mt-3 ml-2">Market research</p>
+                                        <p class="mt-3 ml-2 Market-title">Market research</p>
                                     </div>
                                 </div>
                                 <div>
-                                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+                                    <p class="Market-sup">
+                                        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
                                     molestiae
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-2 text-center align-items-center d-flex">
@@ -39,12 +41,14 @@
                                         <span>01</span>
                                     </div>
                                     <div class="text-center ">
-                                        <p class="mt-3 ml-2">Market research</p>
+                                        <p class="mt-3 ml-2 Market-title">Market research</p>
                                     </div>
                                 </div>
-                                <div>
-                                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+                                <div class="">
+                                    <p class="Market-sup">
+                                        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
                                     molestiae
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-2 text-center align-items-center d-flex">
@@ -62,12 +66,14 @@
                                         <span>01</span>
                                     </div>
                                     <div class="text-center ">
-                                        <p class="mt-3 ml-2">Market research</p>
+                                        <p class="mt-3 ml-2 Market-title">Market research</p>
                                     </div>
                                 </div>
                                 <div>
-                                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+                                    <p class="Market-sup">
+                                        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
                                     molestiae
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-2 text-center align-items-center d-flex">
@@ -85,12 +91,14 @@
                                         <span>01</span>
                                     </div>
                                     <div class="text-center ">
-                                        <p class="mt-3 ml-2">Market research</p>
+                                        <p class="mt-3 ml-2 Market-title">Market research</p>
                                     </div>
                                 </div>
                                 <div>
-                                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+                                    <p class="Market-sup">
+                                        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
                                     molestiae
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-2 text-center align-items-center d-flex">

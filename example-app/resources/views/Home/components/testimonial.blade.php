@@ -2,7 +2,7 @@
 <section class="Testimonial mt-5 container">
     <div class="">
         <div class="text-center mt-5 p-2">
-            <h2 class="mt-3 mb-3" style="color: #fff">Testimonial</h2>
+            <h2 class="mt-3 mb-3 Testimonial-title" style="color: #fff">Testimonial</h2>
             <p style="color: #ffffff8a">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="row">
@@ -17,9 +17,9 @@
                                             <div class="call-icon">
                                                 <i class="bi-person-circle"></i>
                                             </div>
-                                            <div>
-                                                <span class="d-block fw-bold">Mr.burh</span>
-                                                <small class="text-muted">scam simulator</small>
+                                            <div class="">
+                                                <span class=" fw-bold Testimonial_actor">Mr.burh</span>
+                                                <small class="text-muted Testimonial_mis">scam simulator</small>
                                             </div>
                                         </div>
                                     </div>
@@ -29,8 +29,8 @@
                                                 <i class="bi-person-circle"></i>
                                             </div>
                                             <div>
-                                                <span class="d-block fw-bold">Mr.burh</span>
-                                                <small class="text-muted">scam simulator</small>
+                                                <span class=" fw-bold Testimonial_actor">Mr.burh</span>
+                                                <small class="text-muted Testimonial_mis">scam simulator</small>
                                             </div>
                                         </div>
                                     </div>
@@ -40,8 +40,8 @@
                                                 <i class="bi-person-circle"></i>
                                             </div>
                                             <div>
-                                                <span class="d-block fw-bold">Mr.burh</span>
-                                                <small class="text-muted">scam simulator</small>
+                                                <span class=" fw-bold Testimonial_actor">Mr.burh</span>
+                                                <small class="text-muted Testimonial_mis">scam simulator</small>
                                             </div>
                                         </div>
                                     </div>
@@ -54,13 +54,15 @@
                         <div class="comment pt-3">
                             <div class="swiper mySwiper2">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide">“we denounce with right indignation and dislike men
+                                    <div class="swiper-slide Testimonial-command">“we denounce with right indignation and dislike men
                                         who are so beguile and demoralized by the charms of pleasure of the moment,
                                         so blinded by desire, that they cannot foresee “</div>
-                                    <div class="swiper-slide">“we denounce with right indignation and dislike men
+
+                                    <div class="swiper-slide Testimonial-command">“we denounce with right indignation and dislike men
                                         who are so beguile and demoralized by the charms of pleasure of the moment,
                                         so blinded by desire, that they cannot foresee “</div>
-                                    <div class="swiper-slide">“we denounce with right indignation and dislike men
+
+                                    <div class="swiper-slide Testimonial-command">“we denounce with right indignation and dislike men
                                         who are so beguile and demoralized by the charms of pleasure of the moment,
                                         so blinded by desire, that they cannot foresee “</div>
                                 </div>

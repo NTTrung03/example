@@ -19,7 +19,7 @@
     <section class=" container-fluid py-5">
         <div class="container">
             <div class="text-center mx-auto pb-5">
-                <h4>Well come to Minecraft</h4>
+                <h4 class="blog-wellcome">Well come to Minecraft</h4>
                 <h1 class="display-4 mb-4 title_blog">Lorem, ipsum dolor sit amet consectetur adipisicing elit!</h1>
             </div>
         </div>
@@ -35,8 +35,8 @@
                             <img src="/img/100.png" alt="" class=" rounded-top w-100" >
                         </div>
                         <div class="blog-content p-2 bg-light rounded-3">
-                            <a class="h4 text-decoration-none" href="#">Example</a>
-                            <p class="text-muted">5 Bad Landingpage Example & How we Would Fix Them</p>
+                            <a class="h4 text-decoration-none title-titleex" href="#">Example</a>
+                            <p class="text-muted title-sup">5 Bad Landingpage Example & How we Would Fix Them</p>
                             <a href="#" class=" text-decoration-none blog-readmore">Learn more →</a>
                         </div>
                     </div>
@@ -47,8 +47,8 @@
                             <img src="/img/102.png" alt="" class=" rounded-top w-100" >
                         </div>
                         <div class="blog-content p-2 bg-light rounded-3">
-                            <a class="h4 text-decoration-none" href="#">Example</a>
-                            <p class="text-muted">5 Bad Landingpage Example & How we Would Fix Them</p>
+                            <a class="h4 text-decoration-none title-titleex" href="#">Example</a>
+                            <p class="text-muted title-sup">5 Bad Landingpage Example & How we Would Fix Them</p>
                             <a href="#" class=" text-decoration-none blog-readmore">Learn more →</a>
                         </div>
                     </div>
@@ -59,8 +59,8 @@
                             <img src="/img/08.png" alt="" class=" rounded-top w-100  object-fit-cover" >
                         </div>
                         <div class="blog-content p-2 bg-light rounded-3">
-                            <a class="h4 text-decoration-none" href="#">Example</a>
-                            <p class="text-muted">5 Bad Landingpage Example & How we Would Fix Them</p>
+                            <a class="h4 text-decoration-none title-titleex" href="#">Example</a>
+                            <p class="text-muted title-sup">5 Bad Landingpage Example & How we Would Fix Them</p>
                             <a href="#" class=" text-decoration-none blog-readmore">Learn more →</a>
                         </div>
                     </div>
@@ -73,8 +73,8 @@
                             <img src="/img/100.png" alt="" class=" rounded-top w-100" >
                         </div>
                         <div class="blog-content p-2 bg-light rounded-3">
-                            <a class="h4 text-decoration-none" href="#">Example</a>
-                            <p class="text-muted">5 Bad Landingpage Example & How we Would Fix Them</p>
+                            <a class="h4 text-decoration-none title-titleex" href="#">Example</a>
+                            <p class="text-muted title-sup">5 Bad Landingpage Example & How we Would Fix Them</p>
                             <a href="#" class=" text-decoration-none blog-readmore">Learn more →</a>
                         </div>
                     </div>
@@ -85,8 +85,8 @@
                             <img src="/img/100.png" alt="" class=" rounded-top w-100" >
                         </div>
                         <div class="blog-content p-2 bg-light rounded-3">
-                            <a class="h4 text-decoration-none" href="#">Example</a>
-                            <p class="text-muted">5 Bad Landingpage Example & How we Would Fix Them</p>
+                            <a class="h4 text-decoration-none title-titleex" href="#">Example</a>
+                            <p class="text-muted title-sup">5 Bad Landingpage Example & How we Would Fix Them</p>
                             <a href="#" class=" text-decoration-none blog-readmore">Learn more →</a>
                         </div>
                     </div>
@@ -97,8 +97,8 @@
                             <img src="/img/100.png" alt="" class=" rounded-top w-100" >
                         </div>
                         <div class="blog-content p-2 bg-light rounded-3">
-                            <a class="h4 text-decoration-none" href="#">Example</a>
-                            <p class="text-muted">5 Bad Landingpage Example & How we Would Fix Them</p>
+                            <a class="h4 text-decoration-none title-titleex" href="#">Example</a>
+                            <p class="text-muted title-sup">5 Bad Landingpage Example & How we Would Fix Them</p>
                             <a href="#" class=" text-decoration-none blog-readmore">Learn more →</a>
                         </div>
                     </div>
@@ -111,8 +111,8 @@
                             <img src="/img/100.png" alt="" class=" rounded-top w-100" >
                         </div>
                         <div class="blog-content p-2 bg-light rounded-3">
-                            <a class="h4 text-decoration-none" href="#">Example</a>
-                            <p class="text-muted">5 Bad Landingpage Example & How we Would Fix Them</p>
+                            <a class="h4 text-decoration-none title-titleex" href="#">Example</a>
+                            <p class="text-muted title-sup">5 Bad Landingpage Example & How we Would Fix Them</p>
                             <a href="#" class=" text-decoration-none blog-readmore">Learn more →</a>
                         </div>
                     </div>
@@ -123,8 +123,8 @@
                             <img src="/img/100.png" alt="" class=" rounded-top w-100" >
                         </div>
                         <div class="blog-content p-2 bg-light rounded-3">
-                            <a class="h4 text-decoration-none" href="#">Example</a>
-                            <p class="text-muted">5 Bad Landingpage Example & How we Would Fix Them</p>
+                            <a class="h4 text-decoration-none title-titleex" href="#">Example</a>
+                            <p class="text-muted title-sup">5 Bad Landingpage Example & How we Would Fix Them</p>
                             <a href="#" class=" text-decoration-none blog-readmore">Learn more →</a>
                         </div>
                     </div>
@@ -135,7 +135,7 @@
                             <img src="/img/100.png" alt="" class=" rounded-top w-100">
                         </div>
                         <div class="blog-content p-2 bg-light rounded-3">
-                            <a class="h4 text-decoration-none" href="#">Example</a>
+                            <a class="h4 text-decoration-none title-titleex" href="#">Example</a>
                             <p class="text-muted">5 Bad Landingpage Example & How we Would Fix Them</p>
                             <a href="#" class=" text-decoration-none blog-readmore">Learn more →</a>
                         </div>
