@@ -1,5 +1,5 @@
 {{-- about --}}
-<section class="about-section py-5 container">
+<section class="about-section pt-5 container">
     <div class="container">
 
         <div class="row align-items-center">

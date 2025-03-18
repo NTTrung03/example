@@ -14,7 +14,7 @@
                       <img src="img/Djordje.png" alt="" class="img-blog">
                       <p class="blog-date">November 25, 2025</p>
                       <p class="blog-title">Revealing Images With Animations Gradients, Blend Modes Cool</p>
-                      <a href="#" class="blog-readmore">Read more →</a>
+                      <a href="#" class="blog-readmore text-decoration-none">Read more →</a>
                   </div>
               </div>
               <div class="col-md-4 ">
@@ -22,7 +22,7 @@
                       <img src="img/Djordje.png" alt="" class="img-blog">
                       <p class="blog-date">November 25, 2025</p>
                       <p class="blog-title">Revealing Images With Animations Gradients, Blend Modes Cool</p>
-                      <a href="#" class="blog-readmore">Read more →</a>
+                      <a href="#" class="blog-readmore text-decoration-none">Read more →</a>
                   </div>
               </div>
               <div class="col-md-4">
@@ -30,7 +30,7 @@
                       <img src="img/Djordje.png" alt="" class="img-blog">
                       <p class="blog-date">November 25, 2025</p>
                       <p class="blog-title">Revealing Images With Animations Gradients, Blend Modes Cool</p>
-                      <a href="#" class="blog-readmore">Read more →</a>
+                      <a href="#" class="blog-readmore text-decoration-none">Read more →</a>
                   </div>
               </div>
           </div>

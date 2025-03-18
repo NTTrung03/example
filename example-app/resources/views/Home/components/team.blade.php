@@ -1,5 +1,4 @@
- {{-- Team --}}
- <section class="team-section1">
+ <section class="team-section1 pt-5">
     <div class="container">
         <div class="backgroud-team">
             <div class="text-center">
@@ -17,19 +16,19 @@
                                     <p class=" text-center dec_team px-1">Lorem ipsum dolor, sit amet consectetur sit amet consectetur v </p>
                                 </div>
                                 <div class="row position-absolute hover-icon">
-                                    <div class="col-12">
-                                        <a href="#" class="text-white">
-                                            <i class="bi bi-phone fs-2"></i>
+                                    <div class="col-12 mb-3">
+                                        <a href="#" class="text-white ">
+                                            <i class="bi bi-telephone fs-4 bg_icon"></i>
                                         </a>
                                     </div>
-                                    <div class="col-12">
+                                    <div class="col-12 mb-3">
                                         <a href="#" class="text-white">
-                                            <i class="bi bi-phone fs-2"></i>
+                                            <i class="bi bi-facebook fs-4 bg_icon"></i>
                                         </a>
                                     </div>
-                                    <div class="col-12">
+                                    <div class="col-12 mb-3">
                                         <a href="#" class="text-white">
-                                            <i class="bi bi-phone fs-2"></i>
+                                            <i class="bi bi-instagram fs-4 bg_icon"></i>
                                         </a>
                                     </div>
                                 </div>

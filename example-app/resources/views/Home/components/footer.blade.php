@@ -61,7 +61,11 @@
                         <li><a class="dropdown-item" href="#">Vietnamese</a></li>
                         <li><a class="dropdown-item" href="#">French</a></li>
                     </ul>
+                    <button class="btn btn-light" type="button">
+                        <a href="{{route('login')}}"><i class="bi bi-gear"></i></a>
+                    </button>
                 </div>
+                
             </div>
             <div class="col-md-6 text-end">
                 &copy; 2025 All Rights Reserved Designed By....

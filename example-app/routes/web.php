@@ -1,47 +1,50 @@
 <?php
 
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\frontend\Infomation;
+use App\Http\Controllers\frontend\Mission;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Middleware\Checkage;
 use Illuminate\Http\Request;
+use App\Http\Controllers\frontend\HomeController;
+use App\Http\Controllers\frontend\ContactController;
+use App\Http\Controllers\frontend\BlogController;
+use App\Http\Controllers\admin\DashboardController;
+use App\Http\Controllers\frontend\PortfolioController;
+use App\Http\Controllers\frontend\TeamController;
+use App\Http\Controllers\frontend\BlogDetailController;
+use App\Http\Controllers\frontend\PortFolioDetail;
+use App\Http\Controllers\admin\PageController;
+// Home
+Route::get('/', [HomeController::class, 'index'])->name('home');
+// Admin
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+// Frontend
+// Contact
+Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
+// Blog
+Route::get('/blog', [BlogController::class, 'index'])->name('blogs.index');
+// Portfolio
+Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio.index');
+// Team
+Route::get('/team', [TeamController::class, 'index'])->name('team.index');
+// Blog Detail
+Route::get('/blog_detail', [BlogDetailController::class, 'index'])->name('blog_detail.index');
+// Portfolio Detail
+Route::get('/Details_p1', [PortFolioDetail::class, 'index'])->name('portfolio_detail.index');
+// page
+Route::get('/pages', [PageController::class, 'index'])->name('admin.pages.index');
+Route::get('/admin/pages/create', [PageController::class, 'create'])->name('admin.pages.create');
+Route::get('/admin/pages/edit/{page}', [PageController::class, 'edit'])->name('admin.pages.edit');
+Route::post('/admin/pages/store', [PageController::class, 'store'])->name('admin.pages.store');
+Route::put('/admin/pages/update/{page}', [PageController::class, 'update'])->name('admin.pages.update');
+Route::delete('/admin/pages/destroy/{page}', [PageController::class, 'destroy'])->name('admin.pages.destroy');
 
-Route::get('/', function () {
-    return view('Home.index');
-});
 
-Route::get('/portfolio', function (){
-    return view('portfolio.index');
-});
-
-Route::get('/blog', function(){
-    return view('blog.index');
-});
-
-Route::get('/Details_p1', function(){
-    return view('portfolio.components.detail');
-});
-
-
-Route::get('/contact', function(){
-    return view('contact.index');
-} );
-
-Route::get('/team', function () {
-    return view('team.index');
-});
-
-
-
-// Route::get('/users', [UserController::class, 'index'])->name('users.index');
-// Route::get('/users/create', [UserController::class, 'create'])->name('users.create'); 
-// Route::post('/users', [UserController::class, 'store'])->name('users.store'); 
-// Route::post('/users/{user}/update-role', [UserController::class, 'updateRole'])->name('users.updateRole');
-
-// Route::get('/checkage', function () {
-//     return view('checkage');
-// });
-
-// Route::post('/checkage', function (Request $request) {
-//     $request->merge(['age' => (int) $request->input('age')]);
-//     return response()->json(['message' => 'Bạn đã đủ tuổi.']);
-// })->middleware(Checkage::class)->name('checkage');
+//mission
+Route::get('/mission', [Mission::class, 'index'])->name('mission.index');
+// Information
+Route::get('/information', [Infomation::class, 'index'])->name('infomation.index');
+// Authencation
+Route::get('/login', [AuthController::class, 'showlogin'])->name('login');

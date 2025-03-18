@@ -1,5 +1,5 @@
 {{-- Hero Section --}}
-<section class="hero-section container">
+<section class="container pt-5">
     <div class="row align-items-center">
         <div class="col-md-6">
             <div class="hero-text">

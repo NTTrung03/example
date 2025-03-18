@@ -12,27 +12,34 @@
 </head>
 
 <body>
-
+    <div class="flex-wrapper">
     @include('Home.components.header')
 
-    @include('Home.components.Hero_Section')
-    @include('Home.components.about')
-
-    @include('Home.components.team')
-
-    @include('Home.components.business')
-
-    @include('Home.components.working')
-
-    @include('Home.components.testimonial')
-
-    @include('Home.components.blogs')
+    @yield('body')
 
     @include('Home.components.footer')
-
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/js/script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const links = {
+                "/": "home-link",
+                "/portfolio": "portfolio-link",
+                "/info": "info-link",
+                "/team": "team-link",
+                "/mission": "mission-link",
+                "/blog": "blog-link",
+                "/contact": "contact-link"
+            };
+    
+            const currentPath = window.location.pathname;
+            if (links[currentPath]) {
+                document.getElementById(links[currentPath]).classList.add("active");
+            }
+        });
+    </script>
+    
 </body>
-
 </html>

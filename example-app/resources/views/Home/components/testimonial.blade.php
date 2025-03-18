@@ -54,15 +54,18 @@
                         <div class="comment pt-3">
                             <div class="swiper mySwiper2">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide Testimonial-command">“we denounce with right indignation and dislike men
+                                    <div class="swiper-slide Testimonial-command">“we denounce with right indignation
+                                        and dislike men
                                         who are so beguile and demoralized by the charms of pleasure of the moment,
                                         so blinded by desire, that they cannot foresee “</div>
 
-                                    <div class="swiper-slide Testimonial-command">“we denounce with right indignation and dislike men
+                                    <div class="swiper-slide Testimonial-command">“we denounce with right indignation
+                                        and dislike men
                                         who are so beguile and demoralized by the charms of pleasure of the moment,
                                         so blinded by desire, that they cannot foresee “</div>
 
-                                    <div class="swiper-slide Testimonial-command">“we denounce with right indignation and dislike men
+                                    <div class="swiper-slide Testimonial-command">“we denounce with right indignation
+                                        and dislike men
                                         who are so beguile and demoralized by the charms of pleasure of the moment,
                                         so blinded by desire, that they cannot foresee “</div>
                                 </div>
