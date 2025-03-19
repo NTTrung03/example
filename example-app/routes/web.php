@@ -48,3 +48,23 @@ Route::get('/mission', [Mission::class, 'index'])->name('mission.index');
 Route::get('/information', [Infomation::class, 'index'])->name('infomation.index');
 // Authencation
 Route::get('/login', [AuthController::class, 'showlogin'])->name('login');
+Route::post('/login', [AuthController::class, 'login']);
+// Register
+Route::get('/register', [AuthController::class, 'showregister'])->name('register');
+// Forgot
+Route::get('/forgot', [AuthController::class, 'forgotpassword'])->name('forgot');
+
+//logout
+Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
+//admin dashboard
+Route::middleware(['auth', 'role:admin'])->group(function () {
+    Route::get('/dashboard', function () {
+        return "admin dashboard"; 
+    })->name('admin.dashboard');
+});
+//user  dashboard
+Route::middleware(['auth', 'role:user'])->group(function () {
+    Route::get('/user/dashboard', function () {
+        return "User Dashboard";
+    })->name('user.dashboard');
+});

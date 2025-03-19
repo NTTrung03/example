@@ -21,7 +21,7 @@
                                 About
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="nav-link" href="/info" id="info-link">Information</a></li>
+                                <li><a class="nav-link" href="/information" id="info-link">Information</a></li>
                                 <li><a class="nav-link" href="/team" id="team-link">Team</a></li>
                                 <li><a class="nav-link" href="/mission" id="mission-link">Mission</a></li>
                             </ul>

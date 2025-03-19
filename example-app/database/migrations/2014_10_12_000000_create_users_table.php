@@ -19,7 +19,6 @@ return new class extends Migration
             $table->string('password');
             $table->string('address')->nullable(); // Added address column
             $table->string('phone')->nullable(); // Added phone column
-            $table->string('role')->default('user'); // Added role column
             $table->rememberToken();
             $table->timestamps();
         });
