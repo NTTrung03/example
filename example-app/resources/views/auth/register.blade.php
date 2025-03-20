@@ -64,7 +64,7 @@
           </div>
 
           <div class="text-center">
-            <small>Already have an account. <a href="#">Sign In</a></small>
+            <small>Already have an account. <a href="/login">Sign In</a></small>
           </div>
         </div>
       </div>

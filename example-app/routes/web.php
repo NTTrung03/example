@@ -4,6 +4,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\frontend\Infomation;
 use App\Http\Controllers\frontend\Mission;
 use App\Http\Controllers\UserController;
+use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
 use App\Http\Middleware\Checkage;
 use Illuminate\Http\Request;
@@ -34,7 +35,7 @@ Route::get('/blog_detail', [BlogDetailController::class, 'index'])->name('blog_d
 // Portfolio Detail
 Route::get('/Details_p1', [PortFolioDetail::class, 'index'])->name('portfolio_detail.index');
 // page
-Route::get('/pages', [PageController::class, 'index'])->name('admin.pages.index');
+
 Route::get('/admin/pages/create', [PageController::class, 'create'])->name('admin.pages.create');
 Route::get('/admin/pages/edit/{page}', [PageController::class, 'edit'])->name('admin.pages.edit');
 Route::post('/admin/pages/store', [PageController::class, 'store'])->name('admin.pages.store');
@@ -48,7 +49,7 @@ Route::get('/mission', [Mission::class, 'index'])->name('mission.index');
 Route::get('/information', [Infomation::class, 'index'])->name('infomation.index');
 // Authencation
 Route::get('/login', [AuthController::class, 'showlogin'])->name('login');
-Route::post('/login', [AuthController::class, 'login']);
+Route::post('/login', [AuthController::class, 'login'])->name('login');
 // Register
 Route::get('/register', [AuthController::class, 'showregister'])->name('register');
 // Forgot
@@ -58,13 +59,15 @@ Route::get('/forgot', [AuthController::class, 'forgotpassword'])->name('forgot')
 Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 //admin dashboard
 Route::middleware(['auth', 'role:admin'])->group(function () {
-    Route::get('/dashboard', function () {
-        return "admin dashboard"; 
-    })->name('admin.dashboard');
+        Route::get('/dashboard', [DashboardController::class, 'index'])->name('admin.index');
 });
 //user  dashboard
+// Route::middleware(['auth', 'role:user'])->group(function () {
+//     Route::get('/user/dashboard', function () {
+//         return "User Dashboard";
+//     })->name('user.dashboard');
+// });
+
 Route::middleware(['auth', 'role:user'])->group(function () {
-    Route::get('/user/dashboard', function () {
-        return "User Dashboard";
-    })->name('user.dashboard');
+    Route::get('/', [HomeController::class, 'index'])->name('home.index')->middleware('auth');
 });

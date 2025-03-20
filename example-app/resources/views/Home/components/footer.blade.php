@@ -64,6 +64,13 @@
                     <button class="btn btn-light" type="button">
                         <a href="{{route('login')}}"><i class="bi bi-gear"></i></a>
                     </button>
+                    <form action="{{ route('logout') }}" method="POST" style="display: inline;">
+                        @csrf
+                        <button type="submit" class="btn btn-light">
+                            <i class="bi bi-gear"></i> Logout
+                        </button>
+                    </form>
+                    
                 </div>
                 
             </div>
